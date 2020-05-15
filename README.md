@@ -3,7 +3,7 @@
 
 # How to run 🔸
 
--- **1. Install al decependecies**:
+-- **1. Install all decependecies**:
 
 - Express.
 - Express Handlebars.
