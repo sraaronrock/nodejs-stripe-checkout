@@ -1,0 +1,65 @@
+<div class="row">
+    <div class="col-md-4 mx-auto">
+        <div class="card">
+            <img class="card-img-top" src="software.jpg" alt="The Da Vinci Code eBook">
+            <div class="card-body">
+                <h2>3.99$</h2>
+                <p>
+                    The Da Vinci Code is a 2003 mystery thriller novel by Dan Brown.
+                </p>
+            </div>
+            <div class="card-footer">
+                <form action="/checkout" method="POST">
+                    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                        data-key="pk_test_tMyA6c7hAHeiuWeKOBPBPLEp00W611jRbP" data-amount="399"
+                        data-name="LIBRARY SPACE STORE" data-description="The Da Vinci Code eBook"
+                        data-image="/book.jpg" data-locale="auto"></script>
+                    <button class="btn btn-dark btn-block">Buy <i class="fa fa-shopping-cart"></i></button>
+                    <script>document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';</script>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mx-auto">
+        <div class="card">
+            <img class="card-img-top" src="software2.jpg" alt="The Lord of The Rings eBook">
+            <div class=" card-body">
+                <h2>3.99$</h2>
+                <p>
+                    The Lord of The Rings is a 1954 adventures novel by J.R Tolkien.
+                </p>
+            </div>
+            <div class="card-footer">
+                <form action="/checkout" method="POST">
+                    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                        data-key="pk_test_tMyA6c7hAHeiuWeKOBPBPLEp00W611jRbP" data-amount="399"
+                        data-name="LIBRARY SPACE STORE" data-description="The Lord of The Rings eBook"
+                        data-image="/book.jpg" data-locale="auto"></script>
+                    <button class="btn btn-dark btn-block">Buy <i class="fa fa-shopping-cart"></i></button>
+                    <script>document.getElementsByClassName('stripe-button-el')[1].style.display = 'none';</script>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mx-auto">
+        <div class="card">
+            <img class="card-img-top" src="software1.jpg" alt="The Alchemist eBook">
+            <div class="card-body">
+                <h2>3.99$</h2>
+                <p>
+                    The Alchemist is a 1988 novel by Paulo Coelho.
+                </p>
+            </div>
+            <div class="card-footer">
+                <form action="/checkout" method="POST">
+                    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                        data-key="pk_test_tMyA6c7hAHeiuWeKOBPBPLEp00W611jRbP" data-amount="399"
+                        data-name="LIBRARY SPACE STORE" data-description="The Alchemist eBook" data-image="/book.jpg"
+                        data-locale="auto"></script>
+                    <button class="btn btn-dark btn-block">Buy <i class="fa fa-shopping-cart"></i></button>
+                    <script>document.getElementsByClassName('stripe-button-el')[2].style.display = 'none';</script>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
