@@ -3,17 +3,17 @@
 
 # How to run 🔸
 
--- **1. Install al decependecies:
+-- **1. Install al decependecies**:
 
 - Express.
 - Express Handlebars.
 - Stripe.
 
--- **2. Run:
+-- **2. Run**:
 
 - **node .\src\index.js**
 
--- **3. Website:
+-- **3. Website**:
 
 - **locahost:3000
 
