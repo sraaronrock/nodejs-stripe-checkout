@@ -15,7 +15,7 @@
 
 -- **3. Website**:
 
-- **locahost:3000
+- **locahost:3000**
 
 # Examples 📷
 ![Example 1](https://raw.githubusercontent.com/sraaronrock/nodejs-stripe-checkout/master/src/public/1.PNG)
