@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "express": "^5.2.1",
-    "express-handlebars": "^8.0.6",
+    "express-handlebars": "^9.0.4",
     "stripe": "^8.52.0"
   }
 }
